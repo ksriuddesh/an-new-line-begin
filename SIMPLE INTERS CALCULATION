@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()  {
+    
+    float p,r,t ;
+    printf("ENTER THE PRICLIPLE NUMBER_ ");
+    scanf("%f",&p) ;
+    printf("ENTER THE RATE NUMBER_ ");
+    scanf("%f",&r) ;
+    printf("ENTER THE TIME NUMBER_ ") ;
+    scanf ("%f",&t) ;
+    
+    printf("THE SIMPLE INTERST OF THE GIVEN VALUES IS = %.2f",((p*r*t)/100) ) ;
+    
+    
+    return 0 ;
+}
